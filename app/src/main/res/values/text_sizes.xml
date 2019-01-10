@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <dimen name="display4_light">112sp</dimen>
+    <dimen name="display3_regular">56sp</dimen>
+    <dimen name="display2_regular">45sp</dimen>
+    <dimen name="display1_regular">34sp</dimen>
+    <dimen name="headline_regular">24sp</dimen>
+    <dimen name="title_medium">20sp</dimen>
+    <dimen name="subheading_regular">16sp</dimen>
+    <dimen name="body2_regular">14sp</dimen>
+    <dimen name="body1_medium">14sp</dimen>
+    <dimen name="caption_regular">12sp</dimen>
+    <dimen name="menu_medium">12sp</dimen>
+    <dimen name="button_medium_all_caps">14sp</dimen>
+
+    <dimen name="circular_image_view_regular">48dp</dimen>
+
+    <dimen name="circular_image_view_profile">120dp</dimen>
+    <dimen name="main_activity_view_holder">144dp</dimen>
+
+    <dimen name="margin_low">4dp</dimen>
+    <dimen name="margin_medium">8dp</dimen>
+    <dimen name="margin_high">16dp</dimen>
+    <dimen name="margin_xhigh">40dp</dimen>
+
+    <dimen name="main_activity_boarder">16dp</dimen>
+
+    <dimen name="corner_radius">16dp</dimen>
+    <dimen name="elevation">80dp</dimen>
+
+    <dimen name="nav_bar_item_width">70dp</dimen>
+
+
+</resources>

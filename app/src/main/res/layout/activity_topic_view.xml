@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="20"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.TopicViewActivity"
+    tools:showIn="@layout/activity_topic_view">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_margin="@dimen/margin_medium"
+        android:layout_weight="1"
+        android:textSize="@dimen/display2_regular" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvLesson"
+        android:overScrollMode="never"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="2"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpLesson"
+        android:overScrollMode="never"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="14.5"
+        android:orientation="horizontal">
+
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="2.5"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/colorPrimary">
+
+        <ImageButton
+            android:id="@+id/ibPrevious"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight=".2"
+            app:srcCompat="@drawable/navigation_left"
+            android:layout_margin="@dimen/margin_low"
+            android:background="@color/colorPrimary"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageButton
+            android:id="@+id/ibPlaySound"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight=".2"
+            app:srcCompat="@drawable/play_music"
+            android:layout_margin="@dimen/margin_low"
+            android:background="@color/colorPrimary"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageButton
+            android:id="@+id/ibHome"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight=".2"
+            app:srcCompat="@drawable/home"
+            android:layout_margin="@dimen/margin_low"
+            android:background="@color/colorPrimary"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageButton
+            android:id="@+id/ibNext"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight=".2"
+            app:srcCompat="@drawable/navigation_right"
+            android:layout_margin="@dimen/margin_low"
+            android:background="@color/colorPrimary"
+            tools:ignore="VectorDrawableCompat" />
+
+    </LinearLayout>
+
+</LinearLayout>

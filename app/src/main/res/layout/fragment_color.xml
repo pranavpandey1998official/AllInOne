@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_low"
+    android:weightSum="10"
+    tools:context=".fragment.ColorFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_margin="@dimen/margin_xhigh"
+        android:layout_weight="9"
+        android:elevation="@dimen/elevation"
+        app:cardCornerRadius="@dimen/corner_radius">
+
+        <ImageView
+
+            android:id="@+id/ivColor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@color/material_blue"
+
+            />
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Red"
+        android:textSize="@dimen/display3_regular" />
+
+</LinearLayout>
